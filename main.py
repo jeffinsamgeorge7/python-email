@@ -5,11 +5,11 @@ sender_email = "sender@gmail.com"
 receiver_email = "reciver@gmail.com"
 password = "password"
 
-message = """\
-Subject: Test Email
+message = """
 
-This is a test email sent using SMTP and sockets in Python."""
+Hi This is a samble message
 
+"""
 try:
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
